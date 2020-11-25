@@ -14,7 +14,7 @@ public class Main {
 
         for (int i = 0; i < movies.length; i++) {
             String name = movieNames[i];
-            Movie movie = new Movie(name, random.nextInt(10));
+            Movie movie = new Movie(name, random.nextInt(11));
             movies[i] = movie;
 
         }
